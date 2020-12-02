@@ -1,6 +1,6 @@
 import fileinput
 
-def p2(inputfile):
+def run(inputfile):
   entries = set()
   input = fileinput.input(files=inputfile)
   for line in input:
