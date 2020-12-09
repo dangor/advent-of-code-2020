@@ -6,7 +6,7 @@ import day05.p1, day05.p2
 import day06.p1, day06.p2
 import day07.p1, day07.p2
 import day08.p1, day08.p2
-import day09.p1
+import day09.p1, day09.p2
 
 print('day 1 problem 1')
 day01.p1.run('day01/input.txt')
@@ -58,3 +58,6 @@ day08.p2.run('day08/input.txt')
 
 print('\nday 9 problem 1')
 day09.p1.run('day09/input.txt')
+
+print('\nday 9 problem 2')
+day09.p2.run('day09/input.txt')
