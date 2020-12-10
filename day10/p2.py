@@ -26,9 +26,9 @@ def run(inputfile):
       one_counts[current_one_count] += 1
       current_one_count = 0
 
-  # one_count of 1 is 2*0 combos = 1
-  # one_count of 2 is 2*1 combos = 2
-  # one_count of 3 is 2*2 combos = 4
+  # one_count of 1 is 2**0 combos = 1
+  # one_count of 2 is 2**1 combos = 2
+  # one_count of 3 is 2**2 combos = 4
   # one_count of 4 is 7 combos, i.e.:
   # [1, 2, 3, 4], [2, 3, 4], [1, 3, 4], [1, 2, 4], [3, 4], [2, 4], [1, 4]
   # Didn't see any one_counts of 5
