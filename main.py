@@ -8,7 +8,7 @@ import day07.p1, day07.p2
 import day08.p1, day08.p2
 import day09.p1, day09.p2
 import day10.p1, day10.p2
-import day11.p1
+import day11.p1, day11.p2
 
 print('day 1 problem 1')
 day01.p1.run('day01/input.txt')
@@ -70,5 +70,10 @@ day10.p1.run('day10/input.txt')
 print('\nday 10 problem 2')
 day10.p2.run('day10/input.txt')
 
-print('\nday 11 problem 1')
-day11.p1.run('day11/input.txt')
+# slow running
+# print('\nday 11 problem 1')
+# day11.p1.run('day11/input.txt')
+
+# slow running
+print('\nday 11 problem 2')
+day11.p2.run('day11/input.txt')
