@@ -58,4 +58,4 @@ def num_adj_occupied(i, j, seats):
   return num
 
 def in_bounds(i, j, seats):
-  return i in range(len(seats)) and j in range(len(seats[i]))
+  return 0 <= i < len(seats) and 0 <= j < len(seats[i])

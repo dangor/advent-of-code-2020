@@ -48,9 +48,8 @@ def num_adj_occupied(i, j, seats):
   return num
 
 def is_occupied(i, j, seats):
-  if i not in range(len(seats)):
-    return False
-  if j not in range(len(seats[i])):
+  in_range = 0 <= i < len(seats) and 0 <= j < len(seats[i])
+  if not in_range:
     return False
   
   return seats[i][j] == '#'
