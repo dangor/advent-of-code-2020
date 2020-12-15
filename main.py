@@ -12,7 +12,7 @@ import day11.p1, day11.p2
 import day12.p1, day12.p2
 import day13.p1, day13.p2
 import day14.p1, day14.p2
-import day15.p1
+import day15.p1, day15.p2
 
 print('day 1 problem 1')
 day01.p1.run('day01/input.txt')
@@ -102,3 +102,7 @@ day14.p2.run('day14/input.txt')
 
 print('\nday 15 problem 1')
 day15.p1.run()
+
+# slow running
+# print('\nday 15 problem 2')
+# day15.p2.run()
