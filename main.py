@@ -13,6 +13,7 @@ import day12.p1, day12.p2
 import day13.p1, day13.p2
 import day14.p1, day14.p2
 import day15.p1, day15.p2
+import day16.p1
 
 print('day 1 problem 1')
 day01.p1.run('day01/input.txt')
@@ -106,3 +107,6 @@ day15.p1.run()
 # slow running
 # print('\nday 15 problem 2')
 # day15.p2.run()
+
+print('\nday 16 problem 1')
+day16.p1.run('day16/input.txt')
