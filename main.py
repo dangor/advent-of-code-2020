@@ -141,4 +141,4 @@ print('\nday 20 problem 1')
 day20.p1.run('day20/input.txt')
 
 print('\nday 20 problem 2')
-day20.p2.run('day20/test_input.txt')
+day20.p2.run('day20/input.txt', 'day20/sea_monster.txt')
