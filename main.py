@@ -1,3 +1,4 @@
+import time
 import day01.p1, day01.p2
 import day02.p1, day02.p2
 import day03.p1, day03.p2
@@ -20,7 +21,7 @@ import day19.p1, day19.p2
 import day20.p1, day20.p2
 import day21.p1, day21.p2
 import day22.p1, day22.p2
-import day23.p1
+import day23.p1, day23.p2
 
 print('day 1 problem 1')
 day01.p1.run('day01/input.txt')
@@ -161,3 +162,10 @@ day22.p1.run('day22/input.txt')
 
 print('\nday 23 problem 1')
 day23.p1.run("215694783")
+
+# slow running
+start = time.time()
+print('\nday 23 problem 2')
+day23.p2.run("215694783")
+end = time.time()
+print(f"Time: {int((end - start)//60)}:{(end - start)%60}")
