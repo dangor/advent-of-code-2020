@@ -22,6 +22,7 @@ import day20.p1, day20.p2
 import day21.p1, day21.p2
 import day22.p1, day22.p2
 import day23.p1, day23.p2
+import day24.p1
 
 print('day 1 problem 1')
 day01.p1.run('day01/input.txt')
@@ -164,8 +165,11 @@ print('\nday 23 problem 1')
 day23.p1.run("215694783")
 
 # slow running
-start = time.time()
-print('\nday 23 problem 2')
-day23.p2.run("215694783")
-end = time.time()
-print(f"Time: {int((end - start)//60)}:{(end - start)%60}")
+# start = time.time()
+# print('\nday 23 problem 2')
+# day23.p2.run("215694783")
+# end = time.time()
+# print(f"Time: {int((end - start)//60)}:{(end - start)%60}")
+
+print('\nday 24 problem 1')
+day24.p1.run("day24/input.txt")
