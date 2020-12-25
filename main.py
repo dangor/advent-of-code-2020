@@ -23,6 +23,7 @@ import day21.p1, day21.p2
 import day22.p1, day22.p2
 import day23.p1, day23.p2
 import day24.p1, day24.p2
+import day25.p1
 
 print('day 1 problem 1')
 day01.p1.run('day01/input.txt')
@@ -176,3 +177,6 @@ day24.p1.run("day24/input.txt")
 
 print('\nday 24 problem 2')
 day24.p2.run("day24/input.txt")
+
+print('\nday 25 problem 1')
+day25.p1.run(19241437, 17346587)
